@@ -1,10 +1,12 @@
 {
     "name": "hanseong/route",
-    "description": "Hanseong Route is a simple minimalistic PRS-7 router",
+    "description": "Hanseong Route is a simple minimalistic PSR-7 router",
     "keywords": [
         "hanseong",
         "route",
-        "router"
+        "router",
+        "psr-7",
+        "psr-17"
     ],
     "license": "MIT",
     "authors" : [
