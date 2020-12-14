@@ -4,7 +4,7 @@ A simple minimalistic PRS-7 router.
 
 ## Installation
 ```
-composer require longtimejones/hanseong-route
+composer require hanseong/route
 ```
 
 ## Basic usage
