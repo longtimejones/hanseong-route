@@ -72,7 +72,7 @@ $router->map('GET /var/([^/]+/([^/]+)', function (Response $response, Request $r
 
 ### Hanseong (한성, 漢城)
 
-*한성 (romanized Hanseong, but pronounced Hansung) or Hanyang (한양, 漢陽),\
+한성 (*romanized Hanseong, but pronounced Hansung*),\
 was the capital during the Joseon era, a Korean Kingdom.\
 Today it's better known as Seoul (서울, 서울시, 首尔, 首爾),\
-the capital and largest metropolis of South Korea.*
+the capital and largest metropolis of South Korea.
