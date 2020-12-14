@@ -21,7 +21,7 @@ use Psr\Http\Message\{ResponseInterface, ServerRequestInterface};
 
 use Closure;
 use ReflectionClass, ReflectionFunction;
-use InvalidArgumentException, LengthException;
+use InvalidArgumentException, LengthException, OutOfRangeException;
 
 use function array_shift;
 use function array_slice;
@@ -65,6 +65,7 @@ class Router
      *
      * @throws \LengthException if no routes found
      * @throws \InvalidArgumentException if callable is not closure or object
+     * @throws \OutOfRangeException if no routes dispatched
      *
      * @access public
      */
@@ -109,6 +110,8 @@ class Router
                 return call_user_func_array($callable, $params);
             }
         }
+
+        throw new OutOfRangeException('No routes dispatched');
     }
 
     /**
