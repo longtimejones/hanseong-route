@@ -1,6 +1,6 @@
 # Hanseong Route
 
-A simple minimalistic PRS-7 router.
+A simple minimalistic PSR-7 router.
 
 ## Installation
 ```
